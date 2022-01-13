@@ -17,8 +17,6 @@ typedef struct  s_line
 }               t_line;
 
 t_data *mx_fill_input_data(char *file);
-void mx_floyd_warshall_algorithm(t_data *input);
-void mx_print_output(t_data *input);
 void mx_clean_input_data(t_data *input);
 void mx_print_solution(t_data *input);
 
