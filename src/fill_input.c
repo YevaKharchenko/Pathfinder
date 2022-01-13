@@ -133,7 +133,6 @@ t_data *mx_fill_input_data(char *file)
     mx_check_valid_file(file);                   //check for file existence and check if file is empty
     int fd = open(file, O_RDONLY);
     t_data *input = malloc(sizeof(t_data));      //allocate input structure
-
     input->isl_num = num_of_island(fd);         // get num of islands
 
     //initialize arrays of given isl_num
